@@ -1,0 +1,28 @@
+.services-section {
+    background-color: #d1e0ed;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5em;
+    gap: 4em;
+}
+
+.services-header {
+    flex: 1 1 100%;
+}
+
+.services-article {
+    flex: 1 1 35%;
+}
+
+.services-article h4 {
+    letter-spacing: 2px;
+}
+
+.services-article ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-article ul li {
+    text-align: left;
+}
