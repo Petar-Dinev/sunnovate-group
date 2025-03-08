@@ -1,0 +1,41 @@
+.main-header {
+    background-color: #bfd1e3;
+    height: 8em;
+    /* padding: 0.2rem 0.2rem; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    margin-left: auto;
+    list-style: none;
+    padding: 2em 10em 0 0;
+    display: flex;
+    gap: 2em;
+}
+
+a {
+    padding: 0.5em;
+    display: block;
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-h1 {
+    display: block;
+    width: 6em;
+    padding-bottom: 0.2em;
+}
+
+.logo-h1 img {
+    font-size: 4rem;
+    width: 100%;
+    height: auto;
+}
