@@ -11,12 +11,12 @@ export default function Home() {
         muted
         playsInline
       >
-        <source src="entry-video-site2.mp4" type="video/mp4" />
+        <source src="entry-video-site.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <section className={styles["video-overlay"]}>
         <h1>Sunnovate Group</h1>
-        <p style={{ "font-size": "1.8em" }}>Innovate. Commit. Empower.</p>
+        <p style={{ fontSize: "1.8em" }}>Innovate. Commit. Empower.</p>
         <Link className={styles["contract-link"]} to="contact">
           CONTRACT US
         </Link>
