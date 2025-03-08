@@ -1,0 +1,29 @@
+.main-footer {
+    background-color: #edf3fa;
+    padding: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main-footer h6 {
+    padding: 1.5em 0;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-icons a {
+    /* margin: 0 10px; */
+    color: black;
+    font-size: 1.7em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #2aa4cd;
+    /* Change color on hover */
+}
