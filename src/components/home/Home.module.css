@@ -1,0 +1,54 @@
+.video-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Center the video */
+    align-items: center;
+    width: 100%;
+    /* height: 90vh; */
+    /* Set video section to half of the viewport height */
+    background-color: black;
+    /* Optional, to match background */
+}
+
+.background-video {
+    width: 100%;
+    /* Adjust width as needed */
+    /* max-width: 800px; */
+    /* Set a max width */
+    height: auto;
+    /* Keep aspect ratio */
+    /* border-radius: 10px; */
+    /* Optional: rounded corners */
+}
+
+.video-overlay {
+    position: absolute;
+    /* This places text over the video */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* Optional: Adds a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contract-link {
+    text-align: center;
+    padding: 1em 0;
+    border: 2px solid white;
+    margin: 0 7em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    /* background-color: black; */
+}
+
+.contract-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
