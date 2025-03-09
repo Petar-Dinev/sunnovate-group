@@ -17,7 +17,7 @@ export default function Home() {
       <section className={styles["video-overlay"]}>
         <h1>Sunnovate Group</h1>
         <p style={{ fontSize: "1.8em" }}>Innovate. Commit. Empower.</p>
-        <Link className={styles["contract-link"]} to="contact">
+        <Link className={styles["contract-link"]} to="contacts">
           CONTRACT US
         </Link>
       </section>
