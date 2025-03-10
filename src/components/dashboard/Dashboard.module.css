@@ -8,6 +8,8 @@
 
 .services-header {
     flex: 1 1 100%;
+    opacity: 0.6;
+    letter-spacing: 3px;
 }
 
 .services-article {
