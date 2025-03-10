@@ -54,7 +54,7 @@ export default function Footer() {
         </a>
       </div>
       <h6>SUNNOVATE GROUP</h6>
-      <p>KONCHE VIHROGONCHE SOFIA SOFIA 1000</p>
+      <p>153B Georgi S. Rakovski Str., 1000 Sofia, Bulgaria</p>
       <p>Copyright &copy; 2025 Sunnovate Group - All Rights Reserved.</p>
     </footer>
   );
