@@ -1,28 +1,23 @@
-.video-section {
+.home-section {
     position: relative;
     display: flex;
     justify-content: center;
     /* Center the video */
     align-items: center;
     width: 100%;
-    /* height: 90vh; */
+    /* height: 70vh; */
     /* Set video section to half of the viewport height */
     background-color: black;
     /* Optional, to match background */
 }
 
-.background-video {
+.home-page-img {
     width: 100%;
-    /* Adjust width as needed */
-    /* max-width: 800px; */
-    /* Set a max width */
     height: auto;
-    /* Keep aspect ratio */
-    /* border-radius: 10px; */
-    /* Optional: rounded corners */
+    display: block;
 }
 
-.video-overlay {
+.home-img-overlay {
     position: absolute;
     /* This places text over the video */
     top: 50%;

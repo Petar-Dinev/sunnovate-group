@@ -119,6 +119,15 @@ export default function Contacts() {
           <p>Partners@sunnovate-group.com</p>
         </section>
       </section>
+      <section className={styles["google-map-section"]}>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932.612834308989!2d23.3242733!3d42.6907429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8572ce9345fd%3A0xe1a00f8d097475c!2z0KHQvtGE0LjRjyDRhtC10L3RgtGK0YAsINGD0LsuIOKAntCT0LXQvtGA0LPQuCDQoS4g0KDQsNC60L7QstGB0LrQuOKAnCAxNTPQkCwgMTAwMCDQodC-0YTQuNGP!5e0!3m2!1sbg!2sbg!4v1741619967964!5m2!1sbg!2sbg"
+          style={{ border: 0, width: "100%", height: "100%" }}
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </section>
   );
 }
