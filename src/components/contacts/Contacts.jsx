@@ -1,12 +1,20 @@
 import {
+  FaAddressBook,
+  FaEnvelope,
   FaFacebook,
+  FaGlobe,
   FaInstagramSquare,
   FaLinkedin,
+  FaMailBulk,
+  FaMailchimp,
+  FaPhone,
+  FaSitemap,
+  FaVoicemail,
   FaYoutubeSquare,
 } from "react-icons/fa";
 import styles from "./Contacts.module.css";
 import { AiFillTikTok } from "react-icons/ai";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter, FaWebAwesome } from "react-icons/fa6";
 
 export default function Contacts() {
   return (
@@ -115,8 +123,28 @@ export default function Contacts() {
             </li>
           </ul>
           <h4>Sunnovate Group</h4>
-          <p>153B Georgi S. Rakovski Str., 1000 Sofia, Bulgaria</p>
-          <p>Partners@sunnovate-group.com</p>
+          <p className={styles["contact-p"]}>
+            <FaPhone />{" "}
+            <span className={styles["contact-span"]}>+359 88 334 1444</span>
+          </p>
+          <p className={styles["contact-p"]}>
+            <FaEnvelope />{" "}
+            <span className={styles["contact-span"]}>
+              partners@sunnovate-group.com
+            </span>
+          </p>
+          <p className={styles["contact-p"]}>
+            <FaAddressBook />{" "}
+            <span className={styles["contact-span"]}>
+              153B Georgi S. Rakovski Str., 1000 Sofia, Bulgaria
+            </span>
+          </p>
+          <p className={styles["contact-p"]}>
+            <FaGlobe />{" "}
+            <span className={styles["contact-span"]}>
+              www.sunnovate-group.com
+            </span>
+          </p>
         </section>
       </section>
       <section className={styles["google-map-section"]}>
