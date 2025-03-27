@@ -27,7 +27,7 @@ label {
 p,
 ul,
 ol,
-dtl {
+dl {
   padding-bottom: 1.5em;
 }
 
@@ -73,3 +73,9 @@ h6 {
   min-width: 320px;
   min-height: 100vh;
 } */
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}

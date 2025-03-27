@@ -1,8 +1,24 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: column;
-  box-shadow: 0 0 0.5em 0.3em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  header {
+    flex: 1 1 100%;
+  }
+
+  main {
+    /* flex: 8 0 100%; */
+    min-height: 25em;
+  }
+
+  footer {
+    flex: 1 1 100%;
+  }
 }

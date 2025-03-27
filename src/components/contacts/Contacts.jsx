@@ -5,18 +5,50 @@ import {
   FaGlobe,
   FaInstagramSquare,
   FaLinkedin,
-  FaMailBulk,
-  FaMailchimp,
   FaPhone,
-  FaSitemap,
-  FaVoicemail,
   FaYoutubeSquare,
 } from "react-icons/fa";
 import styles from "./Contacts.module.css";
 import { AiFillTikTok } from "react-icons/ai";
-import { FaSquareXTwitter, FaWebAwesome } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { useState } from "react";
+import emailjs from 'emailjs-com';
 
 export default function Contacts() {
+  const [formValues, setformValues] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    address: '',
+    description: ''
+  })
+  const onChangeHandler = (e) => {
+    setformValues({
+      ...formValues,
+      [e.target.name]: e.target.value
+    });
+  }
+  const submitHandler = (e) => {
+    e.preventDefault();
+    console.log(formValues);
+    emailjs
+      .sendForm('service_3srbkks', 'template_1wofwj7', e.target, 'BLIGMLydgYMdwdCdt')
+      .then(
+        (result) => {
+          console.log('Email successfully sent!', result.text);
+          setformValues({
+            name: '',
+            email: '',
+            phone: '',
+            address: '',
+            description: ''
+          });
+        },
+        (error) => {
+          console.error('Error sending email:', error.text);
+        }
+      );
+  }
   return (
     <section className={styles["contacts-section"]}>
       <p>Connect With Us</p>
@@ -80,20 +112,24 @@ export default function Contacts() {
       <section className={styles["main-form-section"]}>
         <section className={styles["form-section"]}>
           <h4>Enquiry form</h4>
-          <form>
-            <input type="text" name="name" id="name" placeholder="Name" />
-            <input type="email" name="email" id="email" placeholder="Email*" />
-            <input type="number" name="phone" id="phone" placeholder="Phone" />
+          <form onSubmit={submitHandler}>
+            <input type="text" name="name" id="name" placeholder="Name" value={formValues.name} onChange={onChangeHandler} />
+            <input type="email" name="email" id="email" placeholder="Email*" value={formValues.email} onChange={onChangeHandler} />
+            <input type="number" name="phone" id="phone" placeholder="Phone" value={formValues.phone} onChange={onChangeHandler} />
             <input
               type="text"
               name="address"
               id="address"
               placeholder="Address (Street, City, Zip Code)"
+              value={formValues.address}
+              onChange={onChangeHandler}
             />
             <textarea
               name="description"
               id="description"
               placeholder="Let us know the details of what you are looking for, and we'll contact you with a quote."
+              value={formValues.description}
+              onChange={onChangeHandler}
             ></textarea>
 
             <button>S E N D</button>
@@ -151,9 +187,9 @@ export default function Contacts() {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932.612834308989!2d23.3242733!3d42.6907429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8572ce9345fd%3A0xe1a00f8d097475c!2z0KHQvtGE0LjRjyDRhtC10L3RgtGK0YAsINGD0LsuIOKAntCT0LXQvtGA0LPQuCDQoS4g0KDQsNC60L7QstGB0LrQuOKAnCAxNTPQkCwgMTAwMCDQodC-0YTQuNGP!5e0!3m2!1sbg!2sbg!4v1741619967964!5m2!1sbg!2sbg"
           style={{ border: 0, width: "100%", height: "100%" }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
     </section>
