@@ -10,6 +10,8 @@
     flex: 1 1 100%;
     opacity: 0.6;
     letter-spacing: 3px;
+    text-align: center;
+    margin-top: 1em;
 }
 
 .services-article {
