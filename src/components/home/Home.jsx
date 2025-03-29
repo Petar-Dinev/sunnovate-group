@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className={styles["home-section"]}>
       <section className={styles["main-logo-section"]}>
-        <img className={styles['home-page-logo-img']} src="home-page-logo.jpg" alt="home-page-logo" />
+        <img className={styles['home-page-logo-img']} src="Test 1.jpg" alt="home-page-logo" />
       </section>
       <section className={styles["home-contract-section"]}>
         <img
