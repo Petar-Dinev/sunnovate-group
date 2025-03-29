@@ -40,3 +40,9 @@ a:hover {
     width: 100%;
     height: auto;
 }
+
+@media (width <= 600px) {
+   a {
+    font-size: 10px;
+   }
+}

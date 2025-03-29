@@ -8,6 +8,7 @@
     height: auto;
     display: block;
 }
+
 .home-contract-section {
     position: relative;
     background-color: black;
@@ -49,7 +50,11 @@
     background-color: black;
 }
 
-@media (max-width: 600px) {
+@media (width <=600px) {
+    .home-img-overlay {
+        bottom: 25%;
+    }
+
     .contract-link {
         font-size: 10px;
         padding: 1.5em;
