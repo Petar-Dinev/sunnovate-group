@@ -23,7 +23,7 @@
 .home-img-overlay {
     position: absolute;
     /* This places text over the video */
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -48,6 +48,23 @@
     text-decoration: none;
     color: white;
     background-color: black;
+}
+
+@media (max-width: 1200px) {
+    .home-img-overlay {
+        bottom: 15%;
+    }
+
+    .contract-link {
+        font-size: 12px;
+        padding: 1.5em;
+    }
+}
+
+@media (max-width: 1000px){
+    .home-img-overlay {
+        bottom: 20%;
+    }
 }
 
 @media (width <=600px) {
