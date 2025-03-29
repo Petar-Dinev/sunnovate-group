@@ -119,7 +119,7 @@ export default function Contacts() {
           <h4>Enquiry form</h4>
           {isSending &&
             <section className={styles["success-message-section"]}>
-              <p className={styles["success-message"]}>Your message has been sent successfully!</p>
+              <p className={styles["success-message"]}>Email has been sent successfully!</p>
             </section>
           }
           <form onSubmit={submitHandler}>
@@ -144,11 +144,6 @@ export default function Contacts() {
 
             <button>S E N D</button>
           </form>
-          {isSending && (
-            <div className={styles["success-message"]}>
-              <p>Message sent successfully! ✅</p>
-            </div>
-          )}
           <p>
             This site is protected by reCAPTCHA and the Google Privacy Policy
             and Terms of Service apply.
