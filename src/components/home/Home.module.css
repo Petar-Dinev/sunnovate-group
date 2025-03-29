@@ -77,3 +77,9 @@
         padding: 1.5em;
     }
 }
+
+@media (width <=500px) {
+    .home-img-overlay {
+        bottom: 35%;
+    }
+}
