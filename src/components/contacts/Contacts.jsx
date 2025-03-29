@@ -15,6 +15,7 @@ import { useState } from "react";
 import emailjs from 'emailjs-com';
 
 export default function Contacts() {
+  const [isSending, setIsSending] = useState(false);
   const [formValues, setformValues] = useState({
     name: '',
     email: '',
@@ -36,6 +37,7 @@ export default function Contacts() {
       .then(
         (result) => {
           console.log('Email successfully sent!', result.text);
+          setIsSending(true);
           setformValues({
             name: '',
             email: '',
@@ -43,6 +45,9 @@ export default function Contacts() {
             address: '',
             description: ''
           });
+          setTimeout(() => {
+            setIsSending(false);
+          }, 3000);
         },
         (error) => {
           console.error('Error sending email:', error.text);
@@ -112,6 +117,11 @@ export default function Contacts() {
       <section className={styles["main-form-section"]}>
         <section className={styles["form-section"]}>
           <h4>Enquiry form</h4>
+          {isSending &&
+            <section className={styles["success-message-section"]}>
+              <p className={styles["success-message"]}>Your message has been sent successfully!</p>
+            </section>
+          }
           <form onSubmit={submitHandler}>
             <input type="text" name="name" id="name" placeholder="Name" value={formValues.name} onChange={onChangeHandler} />
             <input type="email" name="email" id="email" placeholder="Email*" value={formValues.email} onChange={onChangeHandler} />
@@ -134,6 +144,11 @@ export default function Contacts() {
 
             <button>S E N D</button>
           </form>
+          {isSending && (
+            <div className={styles["success-message"]}>
+              <p>Message sent successfully! ✅</p>
+            </div>
+          )}
           <p>
             This site is protected by reCAPTCHA and the Google Privacy Policy
             and Terms of Service apply.

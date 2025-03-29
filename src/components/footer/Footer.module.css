@@ -3,6 +3,7 @@
     padding: 2em;
     text-align: center;
     letter-spacing: 2px;
+    border-top: 2px solid black;
 }
 
 .main-footer h6 {

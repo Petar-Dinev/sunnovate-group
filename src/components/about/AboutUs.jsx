@@ -9,6 +9,29 @@ export default function AboutUs() {
       <header>
         <h2>SUNNOVATE GROUP MANAGEMENT</h2>
       </header>
+      <section className={styles["company-info"]}>
+        <section className={styles["info-section"]}>
+          <h4>About Sunnovate Group</h4>
+          <h5>OUR MISSION</h5>
+          <p>
+            At Sunnovate Group, our mission is to accelerate the global
+            transition to clean, renewable energy by delivering innovative,
+            efficient, and sustainable solar power solutions. We are committed
+            to leveraging cutting-edge technology, engineering excellence, and
+            strategic partnerships to create a greener future. By empowering
+            businesses and communities with reliable and future-proof energy
+            systems, we drive positive environmental and economic impact
+            worldwide.
+          </p>
+        </section>
+        <section className={styles["company-info-img-section"]}>
+          <img
+            className={styles["company-info-img"]}
+            src="https://img1.wsimg.com/isteam/getty/2149036305/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:4605,m"
+            alt="sheep"
+          />
+        </section>
+      </section>
       <section className={styles["founder-info"]}>
         <section className={styles["founder-img-section"]}>
           <img
@@ -48,29 +71,6 @@ export default function AboutUs() {
           >
             {showMore ? "- Show Less" : "+ Show More"}
           </button>
-        </section>
-      </section>
-      <section className={styles["company-info"]}>
-        <section className={styles["info-section"]}>
-          <h4>About Sunnovate Group</h4>
-          <h5>OUR MISSION</h5>
-          <p>
-            At Sunnovate Group, our mission is to accelerate the global
-            transition to clean, renewable energy by delivering innovative,
-            efficient, and sustainable solar power solutions. We are committed
-            to leveraging cutting-edge technology, engineering excellence, and
-            strategic partnerships to create a greener future. By empowering
-            businesses and communities with reliable and future-proof energy
-            systems, we drive positive environmental and economic impact
-            worldwide.
-          </p>
-        </section>
-        <section className={styles["company-info-img-section"]}>
-          <img
-            className={styles["company-info-img"]}
-            src="https://img1.wsimg.com/isteam/getty/2149036305/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:4605,m"
-            alt="sheep"
-          />
         </section>
       </section>
     </section>
