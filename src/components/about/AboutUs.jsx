@@ -36,7 +36,7 @@ export default function AboutUs() {
         <section className={styles["founder-img-section"]}>
           <img
             className={styles["founder-img"]}
-            src="founder.jpg"
+            src="Valentin-4x5.jpg"
             alt="founder"
           />
         </section>

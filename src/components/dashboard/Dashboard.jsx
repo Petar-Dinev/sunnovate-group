@@ -4,7 +4,7 @@ export default function Dashboard() {
   return (
     <section className={styles["services-section"]}>
       <header className={styles["services-header"]}>
-        <h3>SUNNOVATE GROUP SERVICES</h3>
+        <h3>SERVICES</h3>
       </header>
       <article className={styles["services-article"]}>
         <h4>Project Development</h4>

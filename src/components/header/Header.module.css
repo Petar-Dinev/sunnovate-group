@@ -1,5 +1,5 @@
 .main-header {
-    background-color: #bfd1e3;
+    background-color: #edf3fa;
     height: 8em;
     /* padding: 0.2rem 0.2rem; */
     color: white;
@@ -22,6 +22,7 @@ a {
     color: #333;
     font-size: 1.2em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover {
