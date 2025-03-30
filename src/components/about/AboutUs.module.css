@@ -1,7 +1,7 @@
 .about-section {
     display: flex;
     flex-direction: column;
-    background-color: #edf3fa;
+    background-color: #d1e0ed;
     text-align: center;
 }
 
@@ -42,15 +42,44 @@
     height: auto;
 }
 
+.company-info-section {
+    text-align: start;
+    padding: 2em;
+    background-color: #BfD1E3;
+}
+
+.company-info-section h2{
+    text-align: center;
+}
+
+.company-info-section ul{
+    padding-left: 2em;
+}
+
+.company-info-section .logo-span {
+    display: block;
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+.company-info-section .logo-span img {
+    width: 100%;
+    height: auto;
+}
+
 .founder-info {
     display: flex;
     padding: 2em;
     gap: 5em;
+    flex-wrap: wrap;
     /* background-color: #edf3fa; */
+}
+.founder-info h2:first-child {
+    flex: 1 1 100%;
 }
 
 .founder-img-section {
-    flex: 1 1 50%;
+    flex: 0 1 40%;
     padding: 0 1em;
 }
 
@@ -60,7 +89,7 @@
 }
 
 .founder-info-section {
-    flex: 1 1 50%;
+    flex: 0 1 40%;
     text-align: center;
 }
 
