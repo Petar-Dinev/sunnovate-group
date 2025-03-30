@@ -37,13 +37,6 @@ export default function Home() {
         </Link>
         </section>
       </section>
-      {/* <section>
-        <h2>About Sunnovate</h2>
-        <h5>Who We Are</h5>
-        <p>
-          Sunnovate is a leading company in the sector of renewable energy engineering, procurement, and construction, specializing in the development and execution of photovoltaic power plant projects and battery energy storage systems. With a commitment to innovation, sustainability, and operational excellence, we provide turnkey solutions and wide flexibility for businesses, utilities, and governments looking to transition to clean energy.
-        </p>
-      </section> */}
     </section>
   );
 }

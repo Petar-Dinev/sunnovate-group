@@ -1,20 +1,9 @@
-/* .home-section {
+.main-logo-section {
     position: relative;
-    background-color: black;
-} */
+    width: 100%;
+}
 
 .home-page-logo-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.home-contract-section {
-    position: relative;
-    background-color: black;
-}
-
-.home-page-img {
     width: 100%;
     height: auto;
     display: block;
@@ -25,7 +14,7 @@
     /* This places text over the video */
     bottom: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     text-align: center;
     color: white;
     padding: 0 1em 1em;
@@ -50,36 +39,12 @@
     background-color: black;
 }
 
-@media (max-width: 1200px) {
-    .home-img-overlay {
-        bottom: 15%;
-    }
-
+@media (max-width: 600px) {
     .contract-link {
+        margin: 0 2em;
         font-size: 12px;
-        padding: 1.5em;
     }
 }
 
-@media (max-width: 1000px){
-    .home-img-overlay {
-        bottom: 20%;
-    }
-}
 
-@media (width <=600px) {
-    .home-img-overlay {
-        bottom: 25%;
-    }
 
-    .contract-link {
-        font-size: 10px;
-        padding: 1.5em;
-    }
-}
-
-@media (width <=500px) {
-    .home-img-overlay {
-        bottom: 45%;
-    }
-}

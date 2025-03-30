@@ -4,9 +4,9 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles["main-header"]}>
-      <h1 className={styles["logo-h1"]}>
-        <img src="logo.png" alt="logo" className={styles["logo-h1"]} />
-      </h1>
+      <span className={styles["main-logo-span"]}>
+        <img src="logo.png" alt="logo" className={styles["main-logo"]} />
+      </span>
       <nav>
         <ul>
           <li>

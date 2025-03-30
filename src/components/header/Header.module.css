@@ -1,17 +1,19 @@
 .main-header {
     background-color: #edf3fa;
-    height: 8em;
-    /* padding: 0.2rem 0.2rem; */
-    color: white;
+    max-height: 8em;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
-nav ul {
+.main-header nav {
+    margin-top: 3em;
     margin-left: auto;
+    padding-right: 5em;
+}
+
+.main-header nav ul {
     list-style: none;
-    padding: 2em 10em 0 0;
     display: flex;
     gap: 2em;
 }
@@ -29,20 +31,18 @@ a:hover {
     text-decoration: underline;
 }
 
-.logo-h1 {
+.main-logo-span {
     display: block;
-    width: 6em;
-    padding-bottom: 0.2em;
+    width: 12em;
 }
 
-.logo-h1 img {
-    font-size: 4rem;
+.main-logo {
     width: 100%;
     height: auto;
 }
 
 @media (width <= 600px) {
-   a {
-    font-size: 10px;
+   .main-header nav {
+    font-size: 8px;
    }
 }
