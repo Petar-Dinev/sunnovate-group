@@ -19,11 +19,16 @@ export default function AboutUs() {
         <p>To be a trusted leader in renewable energy, driving innovation and creating lasting value for partners and communities. Committed to sustainability, reliability, and delivering high-quality services with excellence and trust.</p>
         <h4>Our Core Values</h4>
         <ul>
-          <li><span></span><strong>Customer-Centric Approach & Commitment</strong> - We tailor solutions to meet our clients' energy needs and business goals.</li>
-          <li><span></span><strong>Integrity</strong> - We build long-term relationships based on transparency, ethics, and trust.</li>
-          <li><span></span><strong>Reliability</strong> - We deliver projects with the highest standards of quality, safety, and precision.</li>
-          <li><span></span><strong>Innovation</strong> - We embrace cutting-edge technology to enhance efficiency and performance.</li>
-          <li><span></span><strong>Sustainability</strong> - We are committed to reducing the world's carbon footprint through clean energy solutions.</li>
+          <li><span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span><strong>Customer-Centric Approach & Commitment</strong></li>
+          <li>We tailor solutions to meet our clients' energy needs and business goals.</li>
+          <li><span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span><strong>Integrity</strong></li>
+          <li>We build long-term relationships based on transparency, ethics, and trust.</li>
+          <li><span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span><strong>Reliability</strong></li>
+          <li>We deliver projects with the highest standards of quality, safety, and precision.</li>
+          <li><span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span><strong>Innovation</strong></li>
+          <li>We embrace cutting-edge technology to enhance efficiency and performance.</li>
+          <li><span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span><strong>Sustainability</strong></li>
+          <li>We are committed to reducing the world's carbon footprint through clean energy solutions.</li>
         </ul>
         <span className={styles['logo-span']}><img src="logo.png" alt="logo-img" /></span>
       </section>
@@ -68,8 +73,8 @@ export default function AboutUs() {
             turnkey operations within the Photovoltaic (PV) and Battery Energy
             Storage Systems (BESS) sectors.{" "}
             <b>
-              Summary of 60+ completed projects with a combined capacity of 2330
-              MWp PV and 400+ MWh BESS.
+              Summary of 60+ completed projects with a combined capacity of 2 300+
+              MWp PVPP and 400+ MWh BESS.
             </b>
           </p>
           {showMore && (
@@ -81,7 +86,7 @@ export default function AboutUs() {
               renewable energy solutions. Skilled in strategic planning,
               contract negotiations, supply chain management, and team
               leadership, with a focus on delivering high-value, scalable, and
-              sustainable energy projects.
+              sustainable energy solutions.
             </p>
           )}
           <button

@@ -11,7 +11,45 @@
     background-color: #d1e0ed;
     flex-wrap: wrap;
 }
+.company-info-section p {
+    padding-left: 2em;
+}
 
+.company-info-section ul{
+    list-style: none;
+    /* display: flex;
+    flex-direction: column;
+    /* gap: 1em; */
+}
+
+.company-info-section ul li{
+    display: flex;
+    align-items: center;
+}
+.company-info-section ul li:nth-child(2n + 1){
+    text-transform: uppercase;
+}
+
+.company-info-section ul li:nth-child(2n){
+    margin-left: 3em;
+}
+
+
+.company-info-section ul li strong{
+    margin-right: 4px;
+}
+
+.bullet-span{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+.bullet-span img{
+    width: 100%;
+    height: auto;
+}
 
 .info-section {
     background-color: #d1e0ed;
@@ -91,6 +129,10 @@
 .founder-info-section {
     flex: 0 1 40%;
     text-align: center;
+}
+
+.founder-info-section p {
+    text-align: justify;
 }
 
 .toggle-btn {

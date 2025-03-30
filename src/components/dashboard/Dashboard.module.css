@@ -20,17 +20,23 @@
 
 .services-info-section ul {
     display: flex;
-    gap: 1em;
-    margin: 2em 0;
     flex-wrap: wrap;
+    list-style: none;
 }
 
+.services-info-section ul li{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    text-align: justify;
+}
+
+
 .services-info-section span {
+    margin-top: 1em;
     display: inline-block;
-    width: 15em;
-    height: 15em;
-    margin-top: -5em;
-    padding: 0;
+    width: 8em;
+    height: 8em;
 }
 
 .services-info-section span img {
@@ -40,7 +46,6 @@
 
 .services-content-section {
     flex: 0 1 75%;
-    margin-left: auto;
 }
 
 .services-content-section ul {
@@ -50,6 +55,7 @@
 }
 
 .services-content-section ul li {
+    flex: 0 1 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +84,25 @@
 }
 .services-content-section ul li:nth-child(4n + 4) {
     background-color: #D8B61F;
+}
+
+@media (max-width: 600px) {
+    .services-section {
+        padding: 0 1em;
+    }
+    .services-info-section {
+        flex: 0 1 100%;
+    }
+    .services-info-section span{
+        font-size: 4px;
+    }
+
+    .services-content-section {
+        flex: 0 1 100%;
+    }
+    .services-content-section ul li {
+        font-size: 10px;
+    }
 }
 
 

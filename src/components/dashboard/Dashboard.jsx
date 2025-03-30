@@ -8,10 +8,10 @@ export default function Dashboard() {
       </header>
       <section className={styles["services-info-section"]}>
         <ul>
-          <li>End-to-End Expertise &dash; From project design to execution and long-term maintenance.</li>
-          <li>Commitment to Quality & Sustainability &dash; Delivering high-performance, environmentally responsible solutions.</li>
-          <li>Proven Track Record &dash; Successfully executed projects across various scales and regions.</li>
-          <li>Innovation & Technology-Driven Approach &dash; Leveraging the latest advancements in solar and energy storage.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>End-to-End Expertise &mdash; From project design to execution and long-term maintenance.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Commitment to Quality & Sustainability &mdash; Delivering high-performance, environmentally responsible solutions.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Proven Track Record &mdash; Successfully executed projects across various scales and regions.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Innovation & Technology-Driven Approach &mdash; Leveraging the latest advancements in solar and energy storage.</li>
         </ul>
         <span><img src="logo.png" alt="logo" /></span>
       </section>
