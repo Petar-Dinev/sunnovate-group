@@ -72,39 +72,102 @@
     height: auto;
 }
 
+/* Default styles */
 .video-section {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    /* Adjust to fit section */
-    overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #edf3fa;
-    /* Optional */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    overflow: hidden;
+    text-align: center;
+    background-color: #d1e0ed;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the video covers the area without distortion */
+    z-index: 1;
+    /* Sends the video behind other content */
 }
 
 .video-section h2 {
+    font-size: 2rem;
     position: absolute;
     top: 5%;
     z-index: 1000;
     transform: translateY(-50%);
 }
 
-.background-video {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; Makes the video fill the section */
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: contain;
-    aspect-ratio: 16/9;
-    /* Maintain aspect ratio */
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    .video-section {
+        height: 55vh;
+
+        /* Adjust section height for smaller screens */
+    }
+
+    .video-section h2 {
+        font-size: 1.5rem;
+        top: 8%;
+        /* Adjust heading size for smaller screens */
+        padding: 15px;
+    }
+
+    .background-video {
+        object-fit: contain;
+        /* Changes fit to avoid cropping on smaller screens */
+    }
+}
+@media (max-width: 600px) {
+    .video-section {
+        height: 45vh;
+        /* Further adjust section height for smaller screens */
+    }
+    .video-section h2 {
+        font-size: 1.2rem;
+        top: 10%;
+        /* Further adjust heading size for smaller screens */
+    }
+
+}
+
+@media (max-width: 500px) {
+    .video-section {
+        height: 35vh;
+        /* Further adjust section height for smaller screens */
+    }
+    .video-section h2 {
+        font-size: 1rem;
+        top: 12%;
+        /* Further adjust heading size for smaller screens */
+    }
+
 }
 
 
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem;
+        /* Further reduce heading size for very small screens */
+    }
+}
+
+
+@media (max-width: 800px) {
+    .contract-link {
+        margin: 0 4em;
+        font-size: 12px;
+    }
+}
 
 
 
