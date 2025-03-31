@@ -135,15 +135,11 @@
     }
 
     .services-content-section ul {
+        justify-content: space-between;
         gap: 1em;
     }
 
     .services-content-section ul li {
-        font-size: 11px;
-    }
-
-
-    /* .services-content-section ul li {
         font-size: 10px;
-    } */
+    }
 }
