@@ -190,22 +190,48 @@
         /* Further adjust section height for smaller screens */
     }
     .video-section h2 {
-        font-size: 1rem;
-        top: 12%;
+        font-size: 1.1rem;
+        top: 11%;
         /* Further adjust heading size for smaller screens */
     }
-
 }
-
 
 @media (max-width: 480px) {
     .video-section {
         height: 33vh;
         /* Further adjust section height for smaller screens */
     }
+}
+
+@media (max-width: 420px) {
+    .video-section {
+        height: 31vh;
+        /* Further adjust section height for smaller screens */
+    }
     .video-section h2 {
         font-size: 1rem;
-        top: 10%;
+        top: 12%;
         /* Further reduce heading size for very small screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .video-section {
+        height: 27vh;
+        /* Further adjust section height for smaller screens */
+    }
+    .video-section h2 {
+        font-size: 1rem;
+        top: 12%;
+        /* Further reduce heading size for very small screens */
+    }
+    .contract-link {
+        margin: 0 2em;
+        font-size: 10px;
+    }
+
+    .services-content-section h2 {
+        font-size: 1.5rem;
+        /* Adjust heading size for smaller screens */
     }
 }

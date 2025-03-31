@@ -6,9 +6,6 @@ export default function AboutUs() {
 
   return (
     <section className={styles["about-section"]}>
-      <header>
-        <h2>SUNNOVATE GROUP MANAGEMENT</h2>
-      </header>
       <section className={styles['company-info-section']}>
         <h2>About Sunnovate</h2>
         <h4>Who We Are</h4>

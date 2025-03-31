@@ -11,7 +11,7 @@
 }
 
 .services-header {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 2em;
@@ -95,6 +95,8 @@
 @media (max-width: 800px) {
     .services-section {
         font-size: 12px;
+        padding: 0 2em;
+        gap: 2em;
     }
 }
 
@@ -102,6 +104,7 @@
     .services-section {
         padding: 0 2em;
         gap: 2em;
+        font-size: 10px;
     }
 }
 
@@ -135,10 +138,28 @@
     }
 
     .services-content-section ul {
-        justify-content: space-between;
+        justify-content: space-evenly;
         gap: 1em;
     }
 
+    .services-content-section ul li {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .services-content-section ul li {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 365px) {
+    .services-content-section ul li {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 320px) {
     .services-content-section ul li {
         font-size: 10px;
     }
