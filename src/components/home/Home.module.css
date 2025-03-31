@@ -41,91 +41,50 @@
 
 .home-content-section {
     background-color: #d1e0ed;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2em;
-    position: relative;
+    padding: 1em 2em;
 }
 
 .home-content-section h2 {
-    flex: 1 1 100%;
     text-align: center;
+    padding-bottom: 1em;
 }
 
-.home-map-section {
-    flex: 1 1 50%;
+.home-content-section ul {
+    list-style: none;
 }
 
-.home-map-section img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.home-power-data-section {
-    flex: 1 1 50%;
-}
-
-.home-power-data-section img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.executive-summary-section {
-    display: flex;
-    background-color: #7EB6D4;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 10em;
-    gap: 2em;
-    padding: 2em 1em;
-    color: white;
-}
-
-.executive-summary-section article {
-    flex: 1 1 17%;
-}
-
-.executive-summary-section article header{
+.home-content-section ul li {
     display: flex;
     align-items: center;
-    gap: 0.5em;
-}
-.executive-summary-section article header h3{
-    margin: 0 0 0.2em 0;
+    margin-bottom: 0.5em;
 }
 
-.headers-container h4{
-    margin: 0;
+.home-content-section ul li span {
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    margin: 0 1em 0 0;
 }
 
-.executive-summary-section article header span{
-    flex: 0 1 30%;
-}
-
-.executive-summary-section article header span img{
-   display: block;
-   width: 100%;
-   height: auto;
-}
-
-.executive-summary-section article p{
-    text-align: center;
-    padding: 0;
+.home-content-section ul li span img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .video-section {
     position: relative;
     width: 100%;
-    height: 80vh; /* Adjust to fit section */
+    height: 80vh;
+    /* Adjust to fit section */
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #edf3fa; /* Optional */
+    background-color: #edf3fa;
+    /* Optional */
 }
+
 .video-section h2 {
     position: absolute;
     top: 5%;
@@ -141,7 +100,8 @@
     top: 0;
     left: 0;
     object-fit: contain;
-    aspect-ratio: 16/9; /* Maintain aspect ratio */
+    aspect-ratio: 16/9;
+    /* Maintain aspect ratio */
 }
 
 

@@ -37,69 +37,6 @@ export default function Home() {
           </Link>
         </section>
       </section>
-      {/* <section className={styles["home-content-section"]}>
-        <h2>Experience & Executive summary</h2>
-        <section className={styles["home-map-section"]}>
-          <img src="global-map.png" alt="global-map" />
-        </section>
-        <section className={styles["home-power-data-section"]}>
-          <img src="Chart-Markets-background-L16x9.png" alt="power-data" />
-        </section>
-        <section className={styles["executive-summary-section"]}>
-          <article>
-            <header>
-              <span><img src="contract.png" alt="contract-image" /></span>
-              <div className={styles["headers-container"]}>
-                <h4>700+*</h4>
-                <h4>1000+**</h4>
-              </div>
-            </header>
-            <p>Annual execution capacity in *MWp / in **MWh</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="engineer.png" alt="engineer-image" /></span>
-              <h3>400+</h3>
-            </header>
-            <p>Construction professionals</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="sun-panel.png" alt="sun-panel-image" /></span>
-              <h3>2 400+</h3>
-            </header>
-            <p>In MWp execution capacity</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="batery.png" alt="batery-img" /></span>
-              <h3>400+</h3>
-            </header>
-            <p>In MWh execution capacity</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="project.png" alt="project-image" /></span>
-              <h3>60+</h3>
-            </header>
-            <p>Executed Projects</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="map.png" alt="map-image" /></span>
-              <h3>11+</h3>
-            </header>
-            <p>Markets of experience</p>
-          </article>
-          <article>
-            <header>
-              <span><img src="clock.png" alt="clock-image" /></span>
-              <h3>9+</h3>
-            </header>
-            <p>Years of experience</p>
-          </article>
-        </section>
-      </section> */}
       <section className={styles["video-section"]}>
         <h2>Experience & Executive summary</h2>
         <video className={styles["background-video"]} autoPlay loop muted playsInline>
@@ -107,7 +44,34 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
       </section>
-
+      <section className={styles["home-content-section"]}>
+        <h2>Benefits of Partnering with us</h2>
+        <ul>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>A Trusted Long-Term Partner strategy visioner, premium service provider, dedicated customer support and post-installation services. Transparent
+            communication and a client-centric approach in every project. A commitment to building lasting relationships based on trust, performance, and shared
+            sustainability goals. Targeting fewer number of customers providing premium services.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Proven Expertise in Renewable Energy Extensive experience in designing, developing, and constructing solar power projects. A team of highly skilled
+            engineers, project managers, and consultants with deep industry knowledge. Compliance with international standards (ISO 9001, 14001, 45001) ensuring
+            quality, safety, and environmental responsibility.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Turnkey EPC & Customized Solutions Full-scale Engineering, Procurement, and Construction (EPC) services, eliminating the need for multiple contractors.
+            Tailor-made solutions for utility-scale, commercial & industrial (C&I), and hybrid solar projects. Flexible and scalable designs to meet specific client needs
+            and site conditions.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Cutting-Edge Technology & Innovation Integration of advanced solar modules, inverters, and energy storage systems for maximum efficiency. Use of real-time
+            monitoring, AI-driven energy management, and predictive analytics to enhance performance. Implementation of smart grid and hybrid energy solutions to
+            ensure energy reliability and cost savings.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Cost-Effective & High-Performance Systems Strong supplier relationships ensure competitive pricing and high-quality materials. Optimization of system
+            efficiency to deliver the highest energy output and return on investment (ROI).Long-term operations & maintenance (O&M) services to maximize system
+            lifespan and minimize downtime. </li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Commitment to Sustainability & ESG Compliance Contribution to carbon footprint reduction by supporting the transition to clean energy. Compliance with
+            environmental, social, and governance (ESG) standards. Support for clients in achieving net-zero goals and fulfilling corporate sustainability commitments.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Seamless Project Execution & Risk Mitigation Extensive experience in regulatory approvals, permitting, and grid connection support. Robust project
+            management framework ensuring timely delivery and budget control. Risk assessment and mitigation strategies to handle project complexities and
+            uncertainties.</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Strong Industry Network & Partnerships Collaboration with leading technology providers, financial institutions, and energy stakeholders. Access to innovative
+            financing models (PPAs, leasing, and investment opportunities). Strategic alliances with policy makers and industry leaders to stay ahead of regulatory trends.</li>
+        </ul>
+        <span className={styles['logo-span']}><img src="" alt="" /></span>
+      </section>
     </section>
   );
 }
