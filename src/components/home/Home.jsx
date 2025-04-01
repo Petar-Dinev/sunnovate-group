@@ -14,6 +14,7 @@ const images = [
 ]
 
 export default function Home() {
+  const [showMore, setShowMore] = useState(false);
   const [index, setIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -36,13 +37,6 @@ export default function Home() {
             CONTACT US
           </Link>
         </section>
-      </section>
-      <section className={styles["video-section"]}>
-        <h2>Experience & Executive summary</h2>
-        <video className={styles["background-video"]} autoPlay loop muted playsInline>
-          <source src="video-slide2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
       </section>
       <section className={styles["home-content-section"]}>
         <h2>Benefits of Partnering with us</h2>
@@ -72,6 +66,55 @@ export default function Home() {
         </ul>
         <span className={styles['logo-span']}><img src="" alt="" /></span>
       </section>
+      <section className={styles["founder-info"]}>
+        <h2>Team Experience & Executive summary</h2>
+        <section className={styles["founder-img-section"]}>
+          <img
+            className={styles["founder-img"]}
+            src="Valentin-4x5.jpg"
+            alt="founder"
+          />
+        </section>
+        <section className={styles["founder-info-section"]}>
+          <h4>Valentin Gospodinov</h4>
+          <h5>Founder & CEO</h5>
+          <p>
+            Visionary leader and renewable energy specialist with 10 years of
+            experience in project management, procurement, cost estimation, and
+            turnkey operations within the Photovoltaic (PV) and Battery Energy
+            Storage Systems (BESS) sectors.{" "}
+            <b>
+              Summary of 60+ completed projects with a combined capacity of 2 300+
+              MWp PVPP and 400+ MWh BESS.
+            </b>
+          </p>
+          {showMore && (
+            <p className={styles["extra-text"]}>
+              Proven track record of delivering large-scale solar energy
+              projects across Europe, the Middle East, and the USA. As the
+              Founder of <strong>Sunnovate Group</strong>, committed to driving
+              innovation, sustainability, and operational excellence in
+              renewable energy solutions. Skilled in strategic planning,
+              contract negotiations, supply chain management, and team
+              leadership, with a focus on delivering high-value, scalable, and
+              sustainable energy solutions.
+            </p>
+          )}
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className={styles["toggle-btn"]}
+          >
+            {showMore ? "- Show Less" : "+ Show More"}
+          </button>
+        </section>
+      </section>
+      <section className={styles["video-section"]}>
+        <video className={styles["background-video"]} autoPlay loop muted playsInline>
+          <source src="video-slide2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
     </section>
   );
 }
