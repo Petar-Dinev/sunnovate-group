@@ -83,10 +83,6 @@ export default function Home() {
             experience in project management, procurement, cost estimation, and
             turnkey operations within the Photovoltaic (PV) and Battery Energy
             Storage Systems (BESS) sectors.{" "}
-            <b>
-              Summary of 60+ completed projects with a combined capacity of 2 300+
-              MWp PVPP and 400+ MWh BESS.
-            </b>
           </p>
           {showMore && (
             <p className={styles["extra-text"]}>
