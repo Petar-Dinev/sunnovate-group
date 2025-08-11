@@ -1,15 +1,18 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home/Home";
+
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+
+import Home from "./components/home/Home";
 import AboutUs from "./components/about/AboutUs";
 import Dashboard from "./components/dashboard/Dashboard";
-import Footer from "./components/footer/Footer";
 import Contacts from "./components/contacts/Contacts";
+import { LanguageProvider } from "./contexts/languageContext";
 
 function App() {
   return (
-    <>
+    <LanguageProvider>
       <Header />
       <main>
         <Routes>
@@ -20,7 +23,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   );
 }
 
