@@ -75,6 +75,20 @@ h6 {
   min-height: 100vh;
 } */
 
+a {
+    padding: 0.5em;
+    display: block;
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #d1e0ed;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px) {
   html {
     font-size: 10px;

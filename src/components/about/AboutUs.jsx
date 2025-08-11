@@ -1,7 +1,130 @@
-import { useState } from "react";
+import { useContext } from "react";
 import styles from "./AboutUs.module.css";
+import { LanguageContext } from "../../contexts/languageContext";
+import { translations } from "../../translations";
 
 export default function AboutUs() {
+  const { language } = useContext(LanguageContext);
+
+  if (language == 'bg') {
+    return (
+      <section className={styles["about-section"]}>
+        <section className={styles['company-info-section']}>
+          <h2>За Sunnovate</h2>
+          <h4>Кои сме ние</h4>
+          <p>
+            Sunnovate е водеща компания в сектора на
+            <strong>инженеринга, доставките и строителството на възобновяема енергия</strong>,
+            специализирана в разработката и изпълнението на
+            <strong>проекти за фотоволтаични електроцентрали и системи за съхранение на енергия в батерии</strong>.
+            С ангажимент към <strong>иновации, устойчивост и оперативно съвършенство</strong>,
+            ние предлагаме цялостни решения „до ключ“ и висока гъвкавост при реализирането на проекти.
+          </p>
+          <h4>Нашата мисия</h4>
+          <p>
+            <em>"Да дадем сила на устойчивото бъдеще чрез иновативни решения за възобновяема енергия."</em>
+            Стремим се да ускорим <strong>глобалния енергиен преход</strong>,
+            като доставяме <strong>високоефективни соларни системи</strong>,
+            които са рентабилни, мащабируеми и екологично отговорни.
+          </p>
+          <h4>Нашата визия</h4>
+          <p>
+            Да бъдем доверен лидер във възобновяемата енергия, който стимулира иновациите и създава трайна стойност за партньори и общности.
+            Ангажирани сме към устойчивост, надеждност и предоставяне на висококачествени услуги с професионализъм и доверие.
+          </p>
+          <h4>Нашите основни ценности</h4>
+          <ul>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Ориентиран към клиента подход и отдаденост</strong>
+            </li>
+            <li>Персонализираме решенията според енергийните нужди и бизнес целите на клиентите ни.</li>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Интегритет</strong>
+            </li>
+            <li>Изграждаме дългосрочни отношения, основани на прозрачност, етика и доверие.</li>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Надеждност</strong>
+            </li>
+            <li>Доставяме проекти с най-високи стандарти за качество, безопасност и прецизност.</li>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Иновации</strong>
+            </li>
+            <li>Приемаме най-новите технологии за подобряване на ефективността и производителността.</li>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Устойчивост</strong>
+            </li>
+            <li>Посветени сме на намаляване на въглеродния отпечатък в света чрез чистоенергийни решения.</li>
+          </ul>
+          <span className={styles['logo-span']}><img src="logo.png" alt="logo-img" /></span>
+        </section>
+      </section>
+
+    )
+  }
+
+  if (language == 'it') {
+    return (
+      <section className={styles["about-section"]} >
+        <section className={styles['company-info-section']}>
+          <h2>Chi è Sunnovate</h2>
+          <h4>Chi siamo</h4>
+          <p>
+            Sunnovate è un'azienda leader nel settore <strong>dell'ingegneria, fornitura e costruzione di fonti di energia rinnovabile</strong>, specializzata nello sviluppo e nell'implementazione di <strong>progetti per impianti fotovoltaici e sistemi di accumulo di energia a batterie</strong>. Con un impegno verso <strong>innovazione, sostenibilità ed eccellenza operativa</strong>, forniamo soluzioni complete e flessibilità nella realizzazione dei progetti.
+          </p>
+
+          <h4>La nostra missione</h4>
+          <p>
+            <em>"Creare un futuro sostenibile attraverso soluzioni innovative per l'energia rinnovabile."</em> Ci impegniamo ad accelerare <strong>la transizione energetica globale</strong> fornendo <strong>sistemi solari ad alta efficienza</strong> che siano economicamente vantaggiosi, scalabili e rispettosi dell'ambiente.
+          </p>
+
+          <h4>La nostra visione</h4>
+          <p>
+            Essere un leader di fiducia nel campo delle energie rinnovabili, guidando l'innovazione e creando valore a lungo termine per partner e comunità. Ci dedichiamo alla sostenibilità, all'affidabilità e alla fornitura di servizi di alta qualità con precisione e fiducia eccezionali.
+          </p>
+
+          <h4>I nostri valori fondamentali</h4>
+          <ul>
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Approccio orientato al cliente & Impegno</strong>
+            </li>
+            <li>Offriamo soluzioni personalizzate in base alle esigenze energetiche e agli obiettivi aziendali dei nostri clienti.</li>
+
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Integrità</strong>
+            </li>
+            <li>Costruiamo relazioni a lungo termine basate su trasparenza, etica e fiducia.</li>
+
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Affidabilità</strong>
+            </li>
+            <li>Realizziamo progetti secondo i più alti standard di qualità, sicurezza e precisione.</li>
+
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Innovazione</strong>
+            </li>
+            <li>Adottiamo le tecnologie più avanzate per migliorare l'efficienza e le prestazioni.</li>
+
+            <li>
+              <span className={styles['bullet-span']}><img src="wire-with-leaf.png" alt="wire-img" /></span>
+              <strong>Sostenibilità</strong>
+            </li>
+            <li>Ci impegniamo a ridurre l'impronta di carbonio attraverso soluzioni di energia pulita.</li>
+          </ul>
+
+          <span className={styles['logo-span']}><img src="logo.png" alt="logo-img" /></span>
+        </section>
+      </section>
+    )
+  }
 
   return (
     <section className={styles["about-section"]}>
@@ -31,3 +154,4 @@ export default function AboutUs() {
     </section>
   );
 }
+

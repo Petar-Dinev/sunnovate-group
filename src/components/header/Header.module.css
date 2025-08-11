@@ -18,18 +18,42 @@
     gap: 2em;
 }
 
-a {
+.language-div {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* in Header.module.css */
+.flag {
+  width: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.flag:hover {
+  transform: scale(1.1);
+}
+
+.activeFlag {
+  border: 2px solid #444;
+  border-radius: 4px;
+}
+
+
+/* a {
     padding: 0.5em;
     display: block;
     color: #333;
     font-size: 1.2em;
     text-decoration: none;
     text-transform: uppercase;
-}
+} */
 
-a:hover {
-    text-decoration: underline;
-}
+/* a:hover {
+    background-color: #d1e0ed;
+    border-radius: 10px;
+} */
 
 .main-logo-span {
     display: block;

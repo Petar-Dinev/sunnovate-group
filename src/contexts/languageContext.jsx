@@ -4,7 +4,7 @@ export const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
     const [language, setLanguage] = useState(() => {
-        return sessionStorage.getItem('lang') || 'en'
+        return sessionStorage.getItem('lang') || 'bg'
     })
 
     const changeLanguage = (lang) => {

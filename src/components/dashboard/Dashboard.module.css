@@ -35,7 +35,7 @@
 }
 
 
-.services-info-section span {
+.services-info-section ul li span {
     margin-top: 1em;
     display: inline-block;
     width: 8em;
