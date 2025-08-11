@@ -37,7 +37,7 @@ export default function Home() {
         <img className={styles['home-page-logo-img']} src={images[index]} alt="home-page-logo" />
         <section className={styles["home-img-overlay"]}>
           <Link className={styles["contract-link"]} to="contacts">
-            СВЪРЖЕТЕ СЕ С НАС
+            Свържете се с нас
           </Link>
         </section>
       </section>
