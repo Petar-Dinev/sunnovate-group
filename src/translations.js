@@ -6,6 +6,7 @@ export const translations = {
                 about: "About",
                 services: "Services",
                 contacts: "Contacts",
+                certificates: "Certificates"
             },
         },
         dashboard: {
@@ -75,6 +76,7 @@ export const translations = {
                 about: "Chi siamo",
                 services: "Servizi",
                 contacts: "Contatti",
+                certificates: "Certificati"
             },
         },
         dashboard: {
@@ -112,6 +114,7 @@ export const translations = {
                 about: "За нас",
                 services: "Услуги",
                 contacts: "Контакти",
+                certificates: "Сертификати"
             },
         },
         dashboard: {

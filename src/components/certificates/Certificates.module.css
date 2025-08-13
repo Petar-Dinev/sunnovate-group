@@ -1,0 +1,42 @@
+.certificates {
+  padding: 40px;
+  background-color: #d1e0ed;
+}
+
+.certificates h2{
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3em;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.certificates h2:after{
+    content: "";
+    display: block;
+    margin-top: 1em;
+    border-bottom: 2px solid black;
+    width: 30VW;
+   align-self: center;
+}
+
+
+
+.certList {
+  list-style: none;
+  padding: 0;
+}
+
+.certList li {
+  margin: 10px 0;
+}
+
+.certList a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+.certList a:hover {
+  text-decoration: underline;
+}

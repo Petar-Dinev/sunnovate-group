@@ -27,23 +27,26 @@ export default function Header() {
         <li>
           <Link to="/contacts">{t.nav.contacts}</Link>
         </li>
+        <li>
+          <Link to="/certificates">{t.nav.certificates}</Link>
+        </li>
       </ul>
     </nav>
     <div className={styles['language-div']}>
       <img
-        src="/en.svg"
+        src="/flags/en.svg"
         alt="English"
         onClick={() => changeLanguage("en")}
         className={`${styles.flag} ${language === "en" ? styles.activeFlag : ""}`}
       />
       <img
-        src="/it.svg"
+        src="/flags/it.svg"
         alt="Italian"
         onClick={() => changeLanguage("it")}
         className={`${styles.flag} ${language === "it" ? styles.activeFlag : ""}`}
       />
       <img
-        src="/bg.svg"
+        src="/flags/bg.svg"
         alt="Bulgarian"
         onClick={() => changeLanguage("bg")}
         className={`${styles.flag} ${language === "bg" ? styles.activeFlag : ""}`}
