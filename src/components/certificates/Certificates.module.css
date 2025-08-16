@@ -1,6 +1,7 @@
 .certificates {
-  padding: 40px;
+  padding: 3rem;
   background-color: #d1e0ed;
+  min-height: 57VH;
 }
 
 .certificates h2{
@@ -39,4 +40,16 @@
 
 .certList a:hover {
   text-decoration: underline;
+}
+
+@media (width <= 700px) {
+   .certificates {
+    min-height: 65VH;
+   }
+}
+
+@media (width <= 600px) {
+   .certificates {
+    min-height: 70VH;
+   }
 }
