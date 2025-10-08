@@ -43,7 +43,7 @@ export default function Home() {
       </section>
       <section className={styles["home-content-section"]}>
         <h2>Предимства на партньорството с нас и партньорства</h2>
-        <h3>Предимства от Партньорството с нас</h3>
+        <h3>Предимства от партньорството с нас</h3>
         <ul>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Доверен дългосрочен партньор, визионер на стратегията, доставчик на първокласни услуги, специализирана поддръжка на клиенти и услуги след инсталация. Прозрачна комуникация и клиентоориентиран подход във всеки проект. Ангажимент за изграждане на трайни взаимоотношения, основани на доверие, производителност и споделени цели за устойчивост. Насочване към по-малък брой клиенти, предоставящи първокласни услуги.</li>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Доказан опит в областта на възобновяемата енергия. Богат опит в проектирането, разработването и изграждането на проекти за слънчева енергия. Екип от висококвалифицирани инженери, ръководители на проекти и консултанти с дълбоки познания в индустрията. Съответствие с международните стандарти (ISO 9001, 14001, 45001), гарантиращи качество, безопасност и екологична отговорност.</li>
@@ -191,7 +191,7 @@ export default function Home() {
       </section>
       <section className={styles["home-content-section"]}>
         <h2>Benefits of partnering with us and partnerships</h2>
-        <h3>Benefits of Partnering with us</h3>
+        <h3>Benefits of partnering with us</h3>
         <ul>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>A Trusted Long-Term Partner strategy visioner, premium service provider, dedicated customer support and post-installation services. Transparent
             communication and a client-centric approach in every project. A commitment to building lasting relationships based on trust, performance, and shared
