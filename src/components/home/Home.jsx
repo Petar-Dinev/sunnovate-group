@@ -42,7 +42,8 @@ export default function Home() {
         </section>
       </section>
       <section className={styles["home-content-section"]}>
-        <h2>Предимства от Партньорството с нас</h2>
+        <h2>Предимства на партньорството с нас и партньорства</h2>
+        <h3>Предимства от Партньорството с нас</h3>
         <ul>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Доверен дългосрочен партньор, визионер на стратегията, доставчик на първокласни услуги, специализирана поддръжка на клиенти и услуги след инсталация. Прозрачна комуникация и клиентоориентиран подход във всеки проект. Ангажимент за изграждане на трайни взаимоотношения, основани на доверие, производителност и споделени цели за устойчивост. Насочване към по-малък брой клиенти, предоставящи първокласни услуги.</li>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Доказан опит в областта на възобновяемата енергия. Богат опит в проектирането, разработването и изграждането на проекти за слънчева енергия. Екип от висококвалифицирани инженери, ръководители на проекти и консултанти с дълбоки познания в индустрията. Съответствие с международните стандарти (ISO 9001, 14001, 45001), гарантиращи качество, безопасност и екологична отговорност.</li>
@@ -52,6 +53,10 @@ export default function Home() {
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Ангажимент за устойчивост и съответствие с ESG стандартите. Принос за намаляване на въглеродния отпечатък чрез подкрепа на прехода към чиста енергия. Спазване на екологичните, социалните и управленските (ESG) стандарти. Подкрепа за клиентите при постигане на цели за нулеви нетни емисии и изпълнение на корпоративните ангажименти за устойчивост.</li>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Безпроблемно изпълнение на проекти и смекчаване на риска. Обширен опит в регулаторните одобрения, издаването на разрешителни и поддръжката на присъединяване към мрежата. Надеждна рамка за управление на проекти осигуряваща навременно изпълнение и контрол на бюджета. Стратегии за оценка и смекчаване на риска за справяне със сложността и несигурността на проекта.</li>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Силна индустриална мрежа и партньорства. Сътрудничество с водещи доставчици на технологии, финансови институции и заинтересовани страни в енергийния сектор. Достъп до иновативни модели на финансиране (споразумения за покупко-продажба на електроенергия, лизинг и инвестиционни възможности). Стратегически съюзи с политици и лидери в индустрията, за да се изпревари регулаторната тенденция.</li>
+        </ul>
+        <h3>Партньорства</h3>
+        <ul>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate подписа меморандум за разбирателство с Habitat Global Foundation за проучване на възможностите за интегриране на модулна изчислителна инфраструктура в слънчеви проекти, превръщайки излишната възобновяема енергия в дигитален капацитет. Сътрудничеството съчетава експертизата в областта на енергийните и производствените разходи (EPC) с модела на Habitat, за да се осигурят напълно оптимизирани обекти за възобновяема енергия от следващо поколение. habitatprotocol.com</li>
         </ul>
         <span className={styles['logo-span']}><img src="" alt="" /></span>
       </section>
@@ -105,7 +110,8 @@ export default function Home() {
           </section>
         </section>
         <section className={styles["home-content-section"]}>
-          <h2>Vantaggi della collaborazione con noi</h2>
+          <h2>Vantaggi della collaborazione con noi e partnership</h2>
+          <h3>Vantaggi della collaborazione con noi</h3>
           <ul>
             <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Un partner affidabile a lungo termine, visionario nella strategia, fornitore di servizi premium, con assistenza clienti dedicata e servizi post-installazione. Comunicazione trasparente
               e un approccio incentrato sul cliente in ogni progetto. Impegno a costruire relazioni durature basate su fiducia, performance e obiettivi di sostenibilità
@@ -120,6 +126,10 @@ export default function Home() {
             <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Impegno per la sostenibilità e conformità ESG. Contributo alla riduzione dell'impronta di carbonio supportando la transizione verso l'energia pulita. Conformità agli standard ambientali, sociali e di governance (ESG). Supporto ai clienti nel raggiungimento degli obiettivi di zero emissioni nette e nel rispetto degli impegni aziendali in materia di sostenibilità.</li>
             <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Esecuzione impeccabile del progetto e mitigazione del rischio. Vasta esperienza in approvazioni normative, autorizzazioni e supporto per la connessione alla rete. Solido framework di gestione del progetto che garantisce la consegna puntuale e il controllo del budget. Strategie di valutazione e mitigazione del rischio per gestire le complessità e le incertezze del progetto.</li>
             <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Solida rete di partnership e partnership industriali. Collaborazione con i principali fornitori di tecnologia, istituzioni finanziarie e stakeholder del settore energetico. Accesso a modelli di finanziamento innovativi (PPA, leasing e opportunità di investimento). Alleanze strategiche con decisori politici e leader del settore per anticipare le tendenze normative.</li>
+          </ul>
+          <h3>Partnership</h3>
+          <ul>
+            <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate ha firmato un protocollo d'intesa con Habitat Global Foundation per esplorare l'integrazione di infrastrutture di elaborazione modulare all'interno di progetti solari, trasformando l'energia rinnovabile in eccesso in capacità digitale. La collaborazione unisce l'esperienza degli EPC con il modello di Habitat per realizzare siti rinnovabili di nuova generazione, completamente ottimizzati. habitatprotocol.com</li>
           </ul>
           <span className={styles['logo-span']}><img src="" alt="" /></span>
         </section>
@@ -180,7 +190,8 @@ export default function Home() {
         </section>
       </section>
       <section className={styles["home-content-section"]}>
-        <h2>Benefits of Partnering with us</h2>
+        <h2>Benefits of partnering with us and partnerships</h2>
+        <h3>Benefits of Partnering with us</h3>
         <ul>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>A Trusted Long-Term Partner strategy visioner, premium service provider, dedicated customer support and post-installation services. Transparent
             communication and a client-centric approach in every project. A commitment to building lasting relationships based on trust, performance, and shared
@@ -204,6 +215,10 @@ export default function Home() {
             uncertainties.</li>
           <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Strong Industry Network & Partnerships Collaboration with leading technology providers, financial institutions, and energy stakeholders. Access to innovative
             financing models (PPAs, leasing, and investment opportunities). Strategic alliances with policy makers and industry leaders to stay ahead of regulatory trends.</li>
+        </ul>
+        <h3>Partnerships</h3>
+        <ul>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate has signed an MoU with Habitat Global Foundation to explore integrating modular compute infrastructure within solar projects, turning surplus renewable energy into digital capacity. The collaboration combines EPC expertise with Habitat’s model to deliver next-generation, fully optimized renewable sites. habitatprotocol.com</li>
         </ul>
         <span className={styles['logo-span']}><img src="" alt="" /></span>
       </section>

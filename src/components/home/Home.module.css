@@ -42,9 +42,15 @@
 .home-content-section {
     background-color: #d1e0ed;
     padding: 1em 2em;
+    border-bottom: 1px solid black;
 }
 
 .home-content-section h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.home-content-section h3 {
     text-align: center;
     padding-bottom: 1em;
 }
