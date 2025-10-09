@@ -56,7 +56,7 @@ export default function Home() {
         </ul>
         <h3>Партньорства</h3>
         <ul>
-          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate подписа меморандум за разбирателство с Habitat Global Foundation за проучване на възможностите за интегриране на модулна изчислителна инфраструктура в слънчеви проекти, превръщайки излишната възобновяема енергия в дигитален капацитет. Сътрудничеството съчетава експертизата в областта на енергийните и производствените разходи (EPC) с модела на Habitat, за да се осигурят напълно оптимизирани обекти за възобновяема енергия от следващо поколение. habitatprotocol.com</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span><p>Sunnovate подписа меморандум за разбирателство с Habitat Global Foundation за проучване на възможностите за интегриране на модулна изчислителна инфраструктура в слънчеви проекти, превръщайки излишната възобновяема енергия в дигитален капацитет. Сътрудничеството съчетава експертизата в областта на енергийните и производствените разходи (EPC) с модела на Habitat, за да се осигурят напълно оптимизирани обекти за възобновяема енергия от следващо поколение. Посетете уебсайта на нашите партньори<a className={styles['external-link']} href="https://www.habitatprotocol.com/" target="_blank" rel="noopener noreferrer">habitatprotocol.com</a>.</p></li>
         </ul>
         <span className={styles['logo-span']}><img src="" alt="" /></span>
       </section>
@@ -129,7 +129,7 @@ export default function Home() {
           </ul>
           <h3>Partnership</h3>
           <ul>
-            <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate ha firmato un protocollo d'intesa con Habitat Global Foundation per esplorare l'integrazione di infrastrutture di elaborazione modulare all'interno di progetti solari, trasformando l'energia rinnovabile in eccesso in capacità digitale. La collaborazione unisce l'esperienza degli EPC con il modello di Habitat per realizzare siti rinnovabili di nuova generazione, completamente ottimizzati. habitatprotocol.com</li>
+            <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span><p>Sunnovate ha firmato un protocollo d'intesa con Habitat Global Foundation per esplorare l'integrazione di infrastrutture di elaborazione modulare all'interno di progetti solari, trasformando l'energia rinnovabile in eccesso in capacità digitale. La collaborazione unisce l'esperienza degli EPC con il modello di Habitat per realizzare siti rinnovabili di nuova generazione, completamente ottimizzati. Visita il sito web dei nostri partner<a className={styles['external-link']} href="https://www.habitatprotocol.com/" target="_blank" rel="noopener noreferrer">habitatprotocol.com</a>.</p></li>
           </ul>
           <span className={styles['logo-span']}><img src="" alt="" /></span>
         </section>
@@ -218,7 +218,7 @@ export default function Home() {
         </ul>
         <h3>Partnerships</h3>
         <ul>
-          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span>Sunnovate has signed an MoU with Habitat Global Foundation to explore integrating modular compute infrastructure within solar projects, turning surplus renewable energy into digital capacity. The collaboration combines EPC expertise with Habitat’s model to deliver next-generation, fully optimized renewable sites. habitatprotocol.com</li>
+          <li><span><img src="wire-with-leaf.png" alt="wire-img" /></span><p>Sunnovate has signed an MoU with Habitat Global Foundation to explore integrating modular compute infrastructure within solar projects, turning surplus renewable energy into digital capacity. The collaboration combines EPC expertise with Habitat’s model to deliver next-generation, fully optimized renewable sites. Visit our partners website<a className={styles['external-link']} href="https://www.habitatprotocol.com/" target="_blank" rel="noopener noreferrer">habitatprotocol.com</a>.</p></li>
         </ul>
         <span className={styles['logo-span']}><img src="" alt="" /></span>
       </section>
