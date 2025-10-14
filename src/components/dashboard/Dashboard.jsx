@@ -93,7 +93,7 @@ export default function Dashboard() {
   return (
     <section className={styles["main-services-section"]}>
       <header className={styles["services-header"]}>
-        <h3>{t.header}</h3>
+        <h2>{t.header}</h2>
       </header>
       <section className={styles["services-section"]}>
         <section className={styles["services-info-section"]}>
@@ -103,13 +103,10 @@ export default function Dashboard() {
                 <span>
                   <img src="wire-with-leaf.png" alt="wire-img" />
                 </span>
-                {item}
+                <p>{item}</p>
               </li>
             ))}
           </ul>
-          <span>
-            <img src="logo.png" alt="logo" />
-          </span>
         </section>
         <section className={styles["services-content-section"]}>
           <ul>
@@ -119,6 +116,13 @@ export default function Dashboard() {
           </ul>
         </section>
       </section>
+              <section className={styles["logo-section"]}>
+          <p>
+            <span>
+              <img src="logo.png" alt="logo" />
+            </span>
+          </p>
+        </section>
     </section>
   );
 }

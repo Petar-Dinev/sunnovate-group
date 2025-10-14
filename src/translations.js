@@ -10,7 +10,7 @@ export const translations = {
             },
         },
         dashboard: {
-            header: "SERVICES",
+            header: "Services & Capabilities",
             infoList: [
                 "End-to-End Expertise — From project design to execution and long-term maintenance.",
                 "Commitment to Quality & Sustainability — Delivering high-performance, environmentally responsible solutions.",
@@ -18,22 +18,14 @@ export const translations = {
                 "Innovation & Technology-Driven Approach — Leveraging the latest advancements in solar and energy storage."
             ],
             contentList: [
-                "Pre-feasibility and feasibility studies",
-                "Development support",
-                "Solar and renewable energy strategies",
-                "Planning and engineering design of new power plants for stand-alone solar PV, as well as Solar plus energy storage and other hybrid solutions",
+                "Studi di prefattibilità e fattibilità e sviluppo del progetto",
+                "Project strategies and planning",
                 "Turnkey EPC services (incl. O&M)",
                 "Construction works (Mechanical, Electrical, Civil Works)",
                 "Project management and construction supervision",
-                "Bidding process & contractual design (EPC/EPCM, O&M, PPA)",
-                "Turnkey engineering solutions as SCADA, CMMS, LVRT & CCTV",
                 "Commissioning and certification",
-                "PPA advisory",
-                "Operational performance analysis and optimization",
-                "O&M strategy and OPEX optimization",
-                "Thermal drone-enabled inspections",
-                "Repowering studies",
-                "Capacity building"
+                "O&M & OPEX strategy optimization",
+                "Repowering studies & Execution"
             ]
         },
         about: {
@@ -89,21 +81,13 @@ export const translations = {
             ],
             contentList: [
                 "Studi di prefattibilità e fattibilità",
-                "Supporto allo sviluppo",
-                "Strategie per energia solare e rinnovabile",
-                "Pianificazione e progettazione di nuovi impianti per fotovoltaico autonomo, oltre a soluzioni ibride con accumulo energetico",
-                "Servizi EPC chiavi in mano (inclusi O&M)",
-                "Lavori di costruzione (meccanici, elettrici, civili)",
-                "Gestione progetto e supervisione dei lavori",
-                "Processo di gara e progettazione contrattuale (EPC/EPCM, O&M, PPA)",
-                "Soluzioni ingegneristiche chiavi in mano come SCADA, CMMS, LVRT e CCTV",
+                "Strategie e pianificazione del progetto",
+                "Servizi EPC chiavi in ​​mano (inclusi O&M)",
+                "Lavori di costruzione (meccanici, elettrici, opere civili)",
+                "Gestione del progetto e supervisione dei lavori",
                 "Messa in servizio e certificazione",
-                "Consulenza PPA",
-                "Analisi e ottimizzazione delle prestazioni operative",
-                "Strategia O&M e ottimizzazione OPEX",
-                "Ispezioni termiche con droni",
-                "Studi di repowering",
-                "Sviluppo capacità"
+                "Ottimizzazione della strategia O&M e OPEX",
+                "Studi e realizzazione di repowering"
             ]
         }
     },
@@ -126,22 +110,14 @@ export const translations = {
                 "Иновационен и технологично ориентиран подход — Използване на най-новите постижения в слънчевата енергия и съхранението на енергия."
             ],
             contentList: [
-                "Предварителни и осъществими проучвания",
-                "Подкрепа за развитие",
-                "Стратегии за слънчева и възобновяема енергия",
-                "Планиране и инженерно проектиране на нови електроцентрали за самостоятелни слънчеви фотоволтаични системи",
-                "EPC услуги „до ключ“ (вкл. O&M)",
+                "Предварителни и осъществими проучвания и разработване на проекти",
+                "Проектни стратегии и планиране",
+                "Услуги по изграждане и поддръжка до ключ (вкл. експлоатация и поддръжка)",
                 "Строителни работи (механични, електрически, граждански)",
                 "Управление на проекти и строителен надзор",
-                "Процес на тръжни търгове и договорно проектиране (EPC/EPCM, O&M, PPA)",
-                "Инженерни решения „до ключ“ като SCADA, CMMS, LVRT и CCTV",
                 "Въвеждане в експлоатация и сертифициране",
-                "Консултации по PPA",
-                "Анализ и оптимизация на оперативните показатели",
-                "Стратегия за експлоатация и поддръжка и оптимизация на оперативните разходи",
-                "Инспекции с термални дронове",
-                "Проучвания за обновяване на електроснабдяването",
-                "Изграждане на капацитет"
+                "Оптимизиране на стратегията за експлоатация и поддръжка и оперативни разходи",
+                "Проучвания и изпълнение на модернизацията"
             ]
         }
     }
