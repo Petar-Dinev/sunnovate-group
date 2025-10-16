@@ -18,7 +18,7 @@ export const translations = {
                 "Innovation & Technology-Driven Approach — Leveraging the latest advancements in solar and energy storage."
             ],
             contentList: [
-                "Studi di prefattibilità e fattibilità e sviluppo del progetto",
+                "Pre-feasibility and feasibility studies & Project development",
                 "Project strategies and planning",
                 "Turnkey EPC services (incl. O&M)",
                 "Construction works (Mechanical, Electrical, Civil Works)",
